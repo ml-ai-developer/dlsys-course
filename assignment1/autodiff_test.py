@@ -202,4 +202,5 @@ def test_matmul_two_vars():
     assert np.array_equal(grad_x3_val, expected_grad_x3_val)
 
 if __name__ == '__main__':
-    test_identity()
+    test_matmul_two_vars()
+
